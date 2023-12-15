@@ -18,5 +18,4 @@ def tef(message):
 def message(message):
     bot.send_message(5263471764, f'К нам записаля, {message.text}')
 
-
 bot.polling(none_stop=True)
